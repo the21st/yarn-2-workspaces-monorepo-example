@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "packages/myapp-1"
+		}
+	],
+	"settings": {
+		"jest.disabledWorkspaceFolders": ["yarn-2-workspaces-monorepo-example"],
+		"jest.jestCommandLine": "yarn jest",
+	}
+}
