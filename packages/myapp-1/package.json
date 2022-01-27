@@ -1,9 +1,13 @@
 {
     "name": "@miq/myapp-1",
     "dependencies": {
-        "@miq/myapp-2": "workspace:*"
+        "@miq/myapp-2": "workspace:*",
+        "jest": "^27.4.7"
     },
     "scripts": {
         "start": "node ."
+    },
+    "devDependencies": {
+        "jest-pnp-resolver": "^1.2.2"
     }
 }
